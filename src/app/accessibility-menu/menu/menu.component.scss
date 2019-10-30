@@ -1,0 +1,55 @@
+@import "~src/app/scss/variables";
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: $color-primary;
+  width: 290px;
+  border-radius: 7px;
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    padding: 15px 15px;
+    &__items-grid {
+      background-color: #33394f;
+      display: inline-grid;
+      grid-template-columns: 130px 130px;
+      border-bottom: 1px solid $color-primary-dark;
+      border-left: 1px solid $color-primary-dark;
+    }
+  }
+
+  &__buttons-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 15px 15px;
+    &__btn {
+      width: 100%;
+      &--margin-r-5 {
+        margin-right: 5px;
+      }
+    }
+  }
+
+ &__userway {
+   display: flex;
+   justify-content: space-between;
+   padding: 50px 15px 25px;
+   &__text {
+     font-size: 24px;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: $color-white;
+     &--blue {
+       color: $color-primary-light;
+     }
+   }
+
+   &__icon {
+     &__chat {
+        margin-left: 25px;
+     }
+   }
+ }
+}

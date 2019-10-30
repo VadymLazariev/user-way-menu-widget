@@ -1,0 +1,9 @@
+@import "~src/app/scss/variables";
+
+.button {
+  border: none;
+  height: 40px;
+  background-color: $color-secondary;
+  width: 100%;
+  color: $color-dark-gray;
+}

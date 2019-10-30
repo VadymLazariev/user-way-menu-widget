@@ -1,0 +1,36 @@
+<div class="menu">
+  <app-header></app-header>
+  <div class="menu__content">
+    <div class="menu__content__items-grid">
+      <app-menu-item *ngFor="let item of menuItems" [menuItem]="item"></app-menu-item>
+    </div>
+  </div>
+
+  <div class="menu__buttons-container">
+    <div class="menu__buttons-container__btn menu__buttons-container__btn--margin-r-5">
+      <app-button>Reset all</app-button>
+    </div>
+    <div class="menu__buttons-container__btn">
+      <app-button>Move/Hide panel</app-button>
+    </div>
+  </div>
+
+  <div class="menu__buttons-container">
+    <div class="menu__buttons-container__btn">
+      <app-button>White label this widget</app-button>
+    </div>
+  </div>
+
+  <div class="menu__userway">
+    <p class="menu__userway__text">
+      <span class="menu__userway__text--blue">user</span>way
+    </p>
+    <img class="menu__userway__icon__chat" src="./assets/icons/chat.svg" alt="chat">
+    <img src="./assets/icons/settings.svg" alt="settings">
+
+  </div>
+
+  <app-footer></app-footer>
+</div>
+
+

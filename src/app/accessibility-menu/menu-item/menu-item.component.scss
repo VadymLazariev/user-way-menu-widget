@@ -1,0 +1,24 @@
+@import "../../scss/variables";
+
+.menu-item {
+  color: $color-dark-gray;
+  height: 85px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  border-top: 1px solid $color-primary-dark;
+  border-right: 1px solid $color-primary-dark;
+  font-size: 13px;
+
+  &__icon {
+    height: 40%;
+    margin-bottom: 9px;
+  }
+
+  &__text {
+    font-size: 13px;
+  }
+}
